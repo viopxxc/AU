@@ -1,0 +1,62 @@
+{
+    "name": "Cr ダ ᴍᴜsɪᴄ",
+    "description": "سورس ميوزك تعريب المطور زين.",
+    "logo": "https://telegra.ph//file/835b48f330763bffc34a7.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "Fallen",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "env": {
+      "API_ID": {
+        "description": "سيب ال موجود يقلب عادي",
+        "value": "627658332",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "سيب ال موجود يقلب عادي",
+        "value": "b20ecf82808db76ce2319fbfb0f259b4",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "توكنك يقلب اخوك",
+        "value": "",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "ايدي المالك بتاع البوت",
+        "value": "1355571767",
+        "required": true
+      },
+      "SESSION": {
+        "description": "استخرج من بوت السورس جلسه بايروجرامv2 @str_12bot",
+        "value": "",
+        "required": true
+      },
+      "SUDO_USERS": {
+        "description": "هذا اجباريي لا يتغير.",
+        "value": "1355571767",
+        "required": true
+      },
+      "SUPPORT_CHAT": {
+        "description": "حقوق cr",
+        "value": "https://t.me/SORS0Coo",
+        "required": false
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+  }
