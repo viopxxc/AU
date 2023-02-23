@@ -29,7 +29,7 @@
       "OWNER_ID": {
         "description": "ايدي المالك بتاع البوت",
         "value": "1355571767",
-        "required": true
+        "required": false
       },
       "SESSION": {
         "description": "استخرج من بوت السورس جلسه بايروجرامv2 @str_12bot",
