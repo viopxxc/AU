@@ -38,10 +38,6 @@ buttons = InlineKeyboardMarkup(
             InlineKeyboardButton(text="‣‣I", callback_data="skip_cb"),
             InlineKeyboardButton(text="▢", callback_data="end_cb"),
         ]
-        [
-            InlineKeyboardButton(text="قنآ‏‏هہ آلسـورسـ", callback_data="https://t.me/S_EG_P"),
-            InlineKeyboardButton(text="زيـن الهقر", callback_data="https://t.me/devpokemon"),
-        ]
     ]
 )
 
