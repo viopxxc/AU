@@ -37,7 +37,7 @@
         "required": true
       },
       "SUDO_USERS": {
-        "description": "هذا اجباريي لا يتغير.",
+        "description": "ايدي المطور.",
         "value": "1355571767",
         "required": true
       },
