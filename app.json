@@ -13,7 +13,7 @@
     "env": {
       "API_ID": {
         "description": "سيب ال موجود يقلب عادي",
-        "value": "627658332",
+        "value": "16311578",
         "required": true
       },
       "API_HASH": {
